@@ -39,12 +39,6 @@
    ![Screenshot](Snapshots/Forum2.jpg)
    
    ![Screenshot](Snapshots/Forum3.jpg)
-   
-   ![Screenshot](Snapshots/Homepage.jpg)
-   
-   ![Screenshot](Snapshots/Homepage.jpg)
-   
-
 
 
 
