@@ -1,7 +1,6 @@
 import React from 'react';
 import Circular from './Circular'
 import data from '../Data/data'
-// import { Grid } from '@material-ui/core';
 
 class Tile extends React.Component{
     constructor() {
@@ -29,16 +28,12 @@ class Tile extends React.Component{
         // 
         return (
                 <div class="announcementTile">
-                    {/* <Grid container className="topgrid-review-more">
-                        <Grid item xs={4}> */}
                             <div className="announcementTileHeading">
                                 <hr /> 
                                 <h2>Announcements</h2> 
                                 <hr />
                             </div>
-                        {/* </Grid> */}
 
-                        {/* <Grid item xs={8}> */}
                             <div className="announcementTileContent">
                                 {circulars}
                                 <div className="change-page">
@@ -49,8 +44,6 @@ class Tile extends React.Component{
                                         <span className="change-page-buttons" onClick={() => this.handleClick((this.state.end/5) + 1 > 3 ? 1 : (this.state.end/5) + 1)}> &gt;&gt; </span>
                                 </div>
                             </div>
-                        {/* </Grid>
-                    </Grid> */}
                 </div>
         );
     }

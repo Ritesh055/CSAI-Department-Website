@@ -29,22 +29,6 @@ const ForumAndNavbar = () => {
         );
 }
 
-// const ThreadAndNavbar = () => {
-//     return(
-        
-//     );
-// }
-
-
-// const HistoryAndNavbar = () => {
-//     return(
-//         <div style={{marginLeft: "25vw"}}>
-//             <NavBar/>
-//             <HistoryPage />
-//         </div>
-//     );
-// }
-
 const App =({location,isAuthenticated}) => (
         <div className="normal-page" style={{marginLeft: "25vw"}}>
             {console.log(location)}
@@ -55,12 +39,7 @@ const App =({location,isAuthenticated}) => (
             <GuestRoute location={location} path="/opportunity" exact component={Opportunity} />
             <GuestRoute location={location} path="/society" exact component={Society} />
             <GuestRoute location={location} path="/creators" exact component={Creators}/>
-            {/* <UserRoute location={location} path="/home" exact component={MainBody} />
-            <UserRoute location={location} path="/about" exact component={About} />
-            <UserRoute location={location} path="/faculty" exact component={Faculty} />
-            <UserRoute location={location} path="/announcement" exact component={Announcement} />
-            <UserRoute location={location} path="/opportunity" exact component={Opportunity} />
-            <UserRoute location={location} path="/society" exact component={Society} /> */}
+
             <div className="ui container">
                 <UserRoute location={location} path="/forum" component={ForumAndNavbar}/>
                 <GuestRoute location={location} path="/login" exact component={LoginPage}/>

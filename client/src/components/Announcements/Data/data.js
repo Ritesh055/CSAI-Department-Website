@@ -10,5 +10,4 @@ for(i=0;i<data.length;i++)
     }
     finalData.push(dict)
 }
-//console.log(finalData)
 export default finalData;
