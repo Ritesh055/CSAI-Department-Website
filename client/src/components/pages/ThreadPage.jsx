@@ -4,9 +4,7 @@ import { connect } from 'react-redux';
 import {Segment,Divider,Message,Button,Comment,Header,Dropdown} from 'semantic-ui-react';
 import axios from 'axios'
 import {createComment} from '../../actions/comment'
-import styles from './ThreadPage.css';
 import CommentForm from '../forms/CommentForm';
-import Moment from 'react-moment';
 import CommentDisplay from '../misc/CommentDisplay'
 import ThreadDisplay from '../misc/ThreadDisplay'
 import NavBar from '../misc/Navigation';
